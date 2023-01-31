@@ -1,0 +1,66 @@
+@import 'fonts';
+@import 'reset';
+@import 'colors';
+body{
+   font-family: 'Inter', sans-serif;
+   color: $black;
+}
+.container{
+   max-width: 1140px;
+   margin: auto;
+   padding: 0 30px;
+}
+.header {
+   margin-top: 20px;
+}
+.header-main {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo {
+   font-size: 22px;
+   font-weight: 600;
+   color: $black;
+   & span{
+      color: $primary;
+   }
+}
+.button-genre {
+   display: flex;
+   align-items: center;
+   padding: 8px 15px;
+   background-color: $grey;
+   border-radius: 7px;
+   & .menu-button__line{
+      display: block;
+      height: 2px;
+      width: 10px;
+      background-color: $black;
+      margin: 2px 0;
+   }
+}
+.icon {
+}
+.genre {
+}
+.text-btn-genre {
+}
+.header-search {
+   border: 1px solid $grey;
+   border-radius: 7px;
+   padding: 8px 15px;
+}
+.search-input {
+}
+.search-btn {
+}
+.profile-btns {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.link {
+}
+.text-btn {
+}
